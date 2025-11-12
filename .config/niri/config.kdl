@@ -5,6 +5,11 @@
 config-notification {
     disable-failed
 }
+
+output "HDMI-A-1" {
+    mode "5120x1440"
+}
+
 // Outputs from existing configuration
 /-output "eDP-1" {
     // Uncomment this line to disable this output.
